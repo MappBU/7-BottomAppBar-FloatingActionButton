@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Floating Buttons</string>
+    <string name="home">HOME</string>
+    <string name="shop">SHOP</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="account">ACCOUNT</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="hide">HIDE</string>
+    <string name="display">DISPLAY</string>
+    <string name="play">PLAY</string>
+    <string name="badBoys">BAD BOYS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
