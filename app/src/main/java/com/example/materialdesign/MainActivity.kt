@@ -15,12 +15,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        // Подгружаем боттом апп бар
         setSupportActionBar(binding?.bottomBarFAB)
 
+        // назначаем тапа по бару в отдельном методе
         binding?.bottomBarFAB?.setOnMenuItemClickListener { menuItem -> itemSelected(menuItem)}
 
     }
 
+    // Надуваем апп бар содержимым
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
 
         val menuInflater = menuInflater
@@ -31,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // Тапы по кнопкам бара
     private fun itemSelected(item: MenuItem):Boolean {
 
         when(item.itemId) {
